@@ -63,7 +63,7 @@ This is an educational machine learning project. Its predictions are experimenta
 
 ## Model Execution and Results
 
-## Quantum Circuits
+### Quantum Circuits
 
 ![Quantum Feature Map and Variational Quantum Circuit](images/Circuits.jpeg)
 
