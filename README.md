@@ -71,6 +71,7 @@ This is an educational machine learning project. Its predictions are experimenta
 
 ![Quantum VQC Accuracy](images/QVQC_Accuracy.png)
 
+
 ### Quantum VQC Confusion Matrix
 
 ![Quantum VQC Confusion Matrix](images/QVQC_Confusion_Matrix.png)
