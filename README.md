@@ -1,11 +1,13 @@
-Hybrid Quantum Machine Learning for Heart Disease Prediction
+# Hybrid Quantum Machine Learning for Heart Disease Prediction
 
-Project Overview
+## Project Overview
+
 This project explores a hybrid classical–quantum machine learning approach for heart disease prediction using a heart disease dataset.
 
 Classical machine learning techniques are used for preprocessing, feature selection, and outlier detection. A Variational Quantum Classifier (VQC) is then trained using a parameterized quantum circuit.
 
-Technologies Used
+## Technologies Used
+
 - Python
 - Pandas and NumPy
 - Scikit-learn
@@ -13,7 +15,8 @@ Technologies Used
 - Qiskit
 - Qiskit Machine Learning
 
-Workflow
+## Workflow
+
 1. Load the heart disease dataset.
 2. Split the data into training and testing sets.
 3. Apply standard scaling.
@@ -25,8 +28,10 @@ Workflow
 9. Train a Variational Quantum Classifier using the COBYLA optimizer.
 10. Evaluate predictions using classification metrics.
 
-Evaluation Metrics
+## Evaluation Metrics
+
 The model is evaluated using:
+
 - Accuracy
 - Precision
 - Recall
@@ -34,7 +39,7 @@ The model is evaluated using:
 - Confusion matrix
 - Classification report
 
-How to Run
+## How to Run
 
 1. Install the required Python packages listed in `requirements.txt`.
 2. Ensure `heart.csv` is in the same directory as `pp.py`.
@@ -44,8 +49,28 @@ How to Run
 python pp.py
 ```
 
-Dataset
+## Dataset
+
 The program reads the dataset from `heart.csv`. Add the original dataset source and licence information here before publishing.
 
 ## Limitations
+
 This is an educational machine learning project. Its predictions are experimental and are not intended for medical diagnosis. The project does not establish that quantum machine learning performs better than classical models.
+
+## Project Architecture
+
+![Project Workflow](images/Working.jpeg)
+
+## Quantum Circuits
+
+![Quantum Feature Map and Variational Quantum Circuit](images/Circuits.jpeg)
+
+## Model Results
+
+### Quantum VQC Accuracy
+
+![Quantum VQC Accuracy](images/QVQC_Accuracy.png)
+
+### Quantum VQC Confusion Matrix
+
+![Quantum VQC Confusion Matrix](images/QVQC_Confusion_Matrix.png)
